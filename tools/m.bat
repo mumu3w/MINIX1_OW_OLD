@@ -1,0 +1,1 @@
+bochs -q -f m.bxrc
