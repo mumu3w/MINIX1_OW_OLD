@@ -33,7 +33,7 @@ int cmain()
   for (;;) {
     puts("\n\n\n\n");
     puts("\nHit key as follows:\n\n");
-    puts("    =  start MINIX (root file system in drive 0)\n");
+    puts("    =  start MINIX (root file system in /dev/fd1.)\n");
     puts("\n# ");
     
     c = getc();

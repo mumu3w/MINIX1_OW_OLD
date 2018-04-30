@@ -16,13 +16,13 @@ function tools {
 	cd ..
 }
 
-function lib {
-	cd lib
-	rm -fr minix.lib
+function libsys {
+	cd libsys
+	rm -fr libsys.lib
 	echo "Start compiling library"
 	wmake all 1>>../log.txt 2>&1
 	if [ $? -ne 0 ]; then
-		echo "Failed to compile lib"
+		echo "Failed to compile libsys"
 		exit
 	fi
 	cd ..
@@ -92,7 +92,7 @@ echo "	Publisher: Prentice-Hall (1987)"
 echo " "
 rm -fr log.txt
 tools
-lib
+libsys
 kernel
 fs
 mm

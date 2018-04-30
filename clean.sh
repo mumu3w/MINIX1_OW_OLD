@@ -3,8 +3,8 @@ cd tools
 rm build dos2out
 cd ..
 
-cd lib
-rm -fr minix.lib *.obj *.err
+cd libsys
+rm -fr *.lib *.obj *.err
 cd ..
 
 cd kernel

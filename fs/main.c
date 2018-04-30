@@ -235,7 +235,7 @@ PRIVATE load_ram()
   init_data_clicks = data_org[INFO + 2];
 
   /* Get size of RAM disk by reading root file system's super block */
-  bp = get_block(BOOT_DEV, SUPER_BLOCK, NORMAL);  /* get RAM super block */
+  bp = get_block(ROOT_IMG, SUPER_BLOCK, NORMAL);  /* get RAM super block */
   copy(super_block, bp->b_data, sizeof(struct super_block));
   sp = &super_block[0];
   if (sp->s_magic != SUPER_MAGIC)
@@ -266,7 +266,7 @@ PRIVATE load_ram()
   /* Copy the blocks one at a time from the root diskette to the RAM */
   printf("Loading RAM disk from root diskette.      Loaded:   0K ");
   for (i = 0; i < count; i++) {
-	bp = get_block(BOOT_DEV, (block_nr) i, NORMAL);
+	bp = get_block(ROOT_IMG, (block_nr) i, NORMAL);
 	bp1 = get_block(ROOT_DEV, i, NO_READ);
 	copy(bp1->b_data, bp->b_data, BLOCK_SIZE);
 	bp1->b_dirt = DIRTY;
