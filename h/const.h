@@ -59,9 +59,13 @@
 #define MAX_ISTACK_BYTES   1024	/* maximum initial stack size for EXEC */
 
 /* Device numbers of root (RAM) and boot (fd0) devices. */
-#define ROOT_DEV (dev_nr)   256	/* major-minor device number of root dev */
-#define BOOT_DEV (dev_nr)   512	/* major-minor device number of boot diskette */
+#if ROOT_OF_RAM
 #define ROOT_IMG (dev_nr)   513
+#define ROOT_DEV (dev_nr)   256	/* major-minor device number of root dev */
+#else
+#define ROOT_DEV (dev_nr)   0x301
+#endif	
+#define BOOT_DEV (dev_nr)   512	/* major-minor device number of boot diskette */
 
 /* Flag bits for i_mode in the inode. */
 #define I_TYPE          0170000	/* this field gives inode type */

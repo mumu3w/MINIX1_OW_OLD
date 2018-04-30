@@ -233,7 +233,7 @@ PRIVATE load_ram()
   init_org = data_org[INFO];
   init_text_clicks = data_org[INFO + 1];
   init_data_clicks = data_org[INFO + 2];
-
+#if ROOT_OF_RAM
   /* Get size of RAM disk by reading root file system's super block */
   bp = get_block(ROOT_IMG, SUPER_BLOCK, NORMAL);  /* get RAM super block */
   copy(super_block, bp->b_data, sizeof(struct super_block));
@@ -244,7 +244,9 @@ PRIVATE load_ram()
   if (count > MAX_RAM) panic("RAM disk is too big. # blocks = ", count);
   ram_clicks = count * (BLOCK_SIZE/CLICK_SIZE);
   put_block(bp, FULL_DATA_BLOCK);
-
+#else
+  ram_clicks = 0;
+#endif
   /* Tell MM the origin and size of INIT, and the amount of memory used for the
    * system plus RAM disk combined, so it can remove all of it from the map.
    */
@@ -262,7 +264,7 @@ PRIVATE load_ram()
   m1.POSITION = m1.POSITION << CLICK_SHIFT;
   m1.COUNT = count;
   if (sendrec(MEM, &m1) != OK) panic("Can't report size to MEM", NO_NUM);
-
+#if ROOT_OF_RAM
   /* Copy the blocks one at a time from the root diskette to the RAM */
   printf("Loading RAM disk from root diskette.      Loaded:   0K ");
   for (i = 0; i < count; i++) {
@@ -277,6 +279,7 @@ PRIVATE load_ram()
   }
 
   printf("\rRAM disk loaded.  Please remove root diskette.           \n\n");
+#endif
 }
 
 

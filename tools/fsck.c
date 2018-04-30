@@ -33,7 +33,11 @@ int cmain()
   for (;;) {
     puts("\n\n\n\n");
     puts("\nHit key as follows:\n\n");
+    #if ROOT_OF_RAM
     puts("    =  start MINIX (root file system in /dev/fd1.)\n");
+    #else
+    puts("    =  start MINIX (root file system in /dev/hd1.)\n");
+    #endif
     puts("\n# ");
     
     c = getc();
