@@ -32,7 +32,7 @@ typedef unsigned int UDWORD;
 #define SEP_ID_BIT 0x20
 
 
-#define IMAGE_SIZE 360
+#define IMAGE_SIZE 1440
 
 
 void patch3(void);

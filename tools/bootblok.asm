@@ -61,12 +61,12 @@ start:                          ; start < 16
         mov     es,ax           ; set es to 0
         mov     ss,dx           ; set ss to cs i.e., stack in high core
         mov     sp,1536         ; initialize sp to high core
-
+%if 0
 ; initialize disk parameters
 	mov	ax, atpar
 	mov	[es:DSKBASE],ax	; tentatively assume 1.2M diskette
 	mov	[es:DSKBASE+2],dx
-
+%endif
 ; print greeting
 	mov	ax,2		; reset video
 	int 	10h
@@ -76,7 +76,7 @@ start:                          ; start < 16
         int     10h
         mov     bx, greet
         call    print
-
+%if 0
 ; Determine if this is a 1.2M diskette by trying to read sector 15.
 	xor	ax,ax
 	int	13h
@@ -96,6 +96,7 @@ start:                          ; start < 16
 	mov	ax, pcpar
 	mov	[es:DSKBASE],ax
 	int	13h		; diskette reset
+%endif
 L1:
 
 ; Load the operating system from diskette.
@@ -242,7 +243,7 @@ prt1:   mov     ah,14           ; 14 = print char
 
 
 disksec:  DW 	1
-tracksiz: DW 	15		; changed to 9 for 360K diskettes
+tracksiz: DW 	18		; changed to 9 for 360K diskettes
 pcpar:	  DB	0DFh, 2, 25, 2, 9, 02Ah, 0FFh, 050h, 0F6h, 1, 3  ; for PC
 atpar:	  DB	0DFh, 2, 25, 2,15, 01Bh, 0FFh, 054h, 0F6h, 1, 8  ; for AT
 

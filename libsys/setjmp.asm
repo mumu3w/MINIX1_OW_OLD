@@ -1,6 +1,6 @@
 
-global setjmp, longjmp
-extern exit
+global _setjmp, _longjmp
+extern _exit
 
 
 ; 	struct jmpbuf {
@@ -15,7 +15,7 @@ JMPERR  EQU     -99             ; call exit(JMPERR) when jmp-error
         
 segment _TEXT
 
-setjmp:
+_setjmp:
 	mov	bx,sp
 	mov	ax,[bx]		; ret-addr.
 	mov	bx,[bx+2]	; addr of jmp-struct
@@ -25,7 +25,7 @@ setjmp:
 	xor	ax,ax
 	ret
         
-longjmp:
+_longjmp:
 	mov     bp,sp		; set new frame pointer to sp
 	mov	bx,[bp+4]	; get address of jmp-structure
 	mov	ax,[bp+6]	; get ret-code
@@ -38,7 +38,7 @@ longjmp:
 	jne	L2		; else execute the longjmp
 	mov	ax,JMPERR
 	push	ax
-	call	exit		; should never return
+	call	_exit		; should never return
 	hlt
     L2:	mov	bx,[bx+4]
 	jmp	[bx]

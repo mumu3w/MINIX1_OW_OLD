@@ -1,6 +1,6 @@
 #!/bin/bash
 cd tools
-rm build dos2out
+rm -fr build dos2out minixfsutils
 cd ..
 
 cd libsys
@@ -20,7 +20,15 @@ rm -fr mm.exe mm.map mm.out *.obj *.err
 cd ..
 
 cd tools
-rm -fr *.exe *.map *.out *.obj *.err bootblok.bin
+rm -fr *.exe *.map *.out *.obj *.err bootblok.bin *.img c.img.old image
 cd ..
 
-rm -fr log.txt tools/*.img
+cd libc
+rm -fr *.lib *.obj *.err
+cd ..
+
+cd test
+rm -fr *.obj *.err *.map *.exe *.out
+cd ..
+
+rm -fr log.txt
