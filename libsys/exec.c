@@ -15,7 +15,7 @@ char *name, *argv;
   char **p;
   p = (char **) &argv;
   while (*p++) /* null statement */ ;
-  return execve(name, &argv, p);
+  return execve(name, &argv, *p);
 }
 
 PUBLIC int execv(name, argv)

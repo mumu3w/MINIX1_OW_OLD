@@ -26,6 +26,7 @@ _setjmp:
 	ret
         
 _longjmp:
+        push    bp
 	mov     bp,sp		; set new frame pointer to sp
 	mov	bx,[bp+4]	; get address of jmp-structure
 	mov	ax,[bp+6]	; get ret-code
@@ -36,12 +37,14 @@ _longjmp:
 	mov	bp,[bx]
 	or	bp,bp		; test if last frame-pointer (error)
 	jne	L2		; else execute the longjmp
+        pop     bp
 	mov	ax,JMPERR
 	push	ax
 	call	_exit		; should never return
 	hlt
     L2:	mov	bx,[bx+4]
-	jmp	[bx]
+        pop     cx
+	jmp	bx
 
 segment _DATABEG
         

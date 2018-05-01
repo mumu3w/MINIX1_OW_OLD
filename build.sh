@@ -145,4 +145,4 @@ image ./tools bootblok.bin kernel mm fs init fsck image
 cd tools
 tar xf img.tar.xz
 cd ..
-#test
+test
