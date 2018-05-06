@@ -1,8 +1,8 @@
 #display_library: win32,options="gui_debug"
 display_library: win32
-romimage: file="$BXSHARE/BIOS-bochs-legacy"
+romimage: file="$BXSHARE/BIOS-bochs-latest"
 vgaromimage: file="$BXSHARE/VGABIOS-elpin-2.40"
-megs: 1
+megs: 16
 floppya: 1_44="image", status=inserted
 #floppyb: 360k="rootfs.img", status=inserted
 #ata0: enabled=1, ioaddr1=0x1f0, ioaddr2=0x3f0, irq=14

@@ -1,0 +1,2 @@
+wcstombs.c(16): Warning! W136: Comparison equivalent to 'unsigned == 0'
+wcstombs.c(23): Warning! W136: Comparison equivalent to 'unsigned == 0'

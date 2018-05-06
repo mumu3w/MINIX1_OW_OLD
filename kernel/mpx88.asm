@@ -77,6 +77,14 @@ ker_ds:	DW  DGROUP		; this word will contain kernel's ds value
 	mov [_scan_code],bx     ; save scan code for '=' key from bootstrap
 	mov sp,_k_stack	        ; set sp to point to the top of	the
 	add sp,K_STACK_BYTES    ; kernel stack
+        
+CR0_MP equ 010b
+CR0_EM equ 0100b
+        MOV EDX, CR0            ; Start probe, get CR0
+        AND EDX, (-1) - (CR0_EM)       ; clear TS and EM to force fpu access
+        MOV CR0, EDX                            ; store control word
+        FNINIT
+
 	call _main		; start	the main program of Minix
 
      M1:jmp M1			; this should never be executed

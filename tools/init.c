@@ -33,11 +33,11 @@ main()
 	wait(&k);
   } else {
 	/* Child exec's the shell to do the work. */
-	if (open("/etc/rc", 0) < 0) exit(-1);
+	if (open("/etc/rc", 0) < 0) _exit(-1);
 	open("/dev/tty0", 1);	/* std output */
 	open("/dev/tty0", 1);	/* std error */
 	execn("/bin/sh");
-	exit(-2);		/* impossible */
+	_exit(-2);		/* impossible */
   }
 
   /* Read the /etc/ttys file and fork off login processes. */
@@ -89,9 +89,9 @@ int linenr;
 	/* Child */
 	close(0);		/* /etc/ttys may be open */
 	name[DIGIT] = '0' + linenr;
-	if (open(name, 0) != 0) exit(-3);	/* standard input */
-	if (open(name, 1) != 1) exit(-3);	/* standard output */
-	if (open(name, 1) != 2) exit(-3);	/* standard error */
+	if (open(name, 0) != 0) _exit(-3);	/* standard input */
+	if (open(name, 1) != 1) _exit(-3);	/* standard output */
+	if (open(name, 1) != 2) _exit(-3);	/* standard error */
 	execn("/usr/bin/login");
 	execn("/bin/login");
 	execn("/bin/sh");	/* last resort, if mount of /usr failed */

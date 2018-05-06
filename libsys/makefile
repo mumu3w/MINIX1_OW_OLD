@@ -21,12 +21,12 @@ CROSSASM = nasm -f obj
 CROSSLIB = wlib
 CROSSCC = wcc
 #CROSSCFLAGS = -Di8088 -ms -0 -s -zls -ecc -zp1 -bt=dos -od -zq -j -zl -fo=.obj
-CROSSCFLAGS = -Di8088 -ms -0 -s -zls -ecc -zp1 -bt=dos -oh -zq -j -zl -fo=.obj
+CROSSCFLAGS = -Di8088 -ms -0 -s -zls -ecc -zp1 -bt=dos -od -zq -j -zl -fo=.obj
 
 all : libsys.lib $(CRTS)
 
 libsys.lib : $(OBJS)
-  $(CROSSLIB) -q -fo libsys.lib $(OBJS) owclibs/i4d.obj owclibs/i4m.obj 
+  $(CROSSLIB) -q -fo libsys.lib $(OBJS) owclibs/i4d.obj owclibs/i4m.obj
  
 .c.obj : 
   $(CROSSCC) $(CROSSCFLAGS) $<

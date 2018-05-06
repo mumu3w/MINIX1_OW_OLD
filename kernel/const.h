@@ -31,8 +31,8 @@
 /* The 8259A interrupt controller has to be re-enabled after each interrupt. */
 #define INT_CTL         0x20	/* I/O port for interrupt controller */
 #define INT_CTLMASK     0x21	/* setting bits in this port disables ints */
-#define INT2_CTL	0xA0	/* I/O port for second interrupt controller */
-#define INT2_MASK	0xA1	/* setting bits in this port disables ints */
+#define INT2_CTL		0xA0	/* I/O port for second interrupt controller */
+#define INT2_MASK		0xA1	/* setting bits in this port disables ints */
 #define ENABLE          0x20	/* code used to re-enable after an interrupt */
 #endif
 

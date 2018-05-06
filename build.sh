@@ -13,7 +13,7 @@ function tools {
 		echo "Failed to compile dos2out"
 		exit
 	fi
-	gcc -o minixfsutils minixfsutils.c 1>>../log.txt 2>&1
+	gcc -o minixfsutils fsutils/minixfsutils.c 1>>../log.txt 2>&1
 	if [ $? -ne 0 ]; then
 		echo "Failed to compile minixfsutils"
 		exit
@@ -145,4 +145,4 @@ image ./tools bootblok.bin kernel mm fs init fsck image
 cd tools
 tar xf img.tar.xz
 cd ..
-test
+#test
