@@ -16,8 +16,8 @@ OBJS = $(OBJS_A) $(OBJS_B) $(OBJS_C)
 LIBCNAME = ../libansi.lib
 CROSSLIB = wlib
 CROSSCC = wcc
-#CROSSCFLAGS = -Di8088 -ms -0 -s -zls -ecc -zp1 -bt=myos -od -zq -j -zl -fo=.obj
-CROSSCFLAGS = -I../_headers -Di8088 -ms -0 -s -zls -ecc -zp1 -bt=myos -od -zq -j -zl -fo=.obj -zro -fpi87
+#CROSSCFLAGS = -Di8088 -ms -3 -s -zls -ecc -zp1 -bt=myos -od -zq -j -zl -fo=.obj
+CROSSCFLAGS = -I../_headers -Di8088 -ms -3 -s -zls -ecc -zp1 -bt=myos -od -zq -j -zl -fo=.obj -zro -fpi87 -op
 
 all : $(LIBCNAME) 
 

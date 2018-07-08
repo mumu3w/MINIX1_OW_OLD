@@ -1,52 +1,53 @@
 #!/bin/bash
-
+export CFLAGS="-I../_headers -c -Di8088 -ms -4 -s -zls -ecc -zp1 -bt=myos -od -zq -j -zl -fo=.obj -zro -fpi87 -fp3 -op"
+export LIBCNAME="../libansi.lib"
 
 cd assert   
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..
 
 cd ctype  
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..
 
 cd float 
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..
 
 cd locale  
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..
 
 cd stdio   
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..
 
 cd string  
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..
 
 cd time
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..
 
 cd errno 
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..
 
 cd math
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..
 
 cd stdlib
-rm *.obj 
-wmake
+wcl $CFLAGS *.c
+wlib -q -fo $LIBCNAME *.obj
 cd ..

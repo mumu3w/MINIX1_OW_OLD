@@ -31,4 +31,8 @@ cd test
 rm -fr *.obj *.err *.map *.exe *.out
 cd ..
 
+cd test2
+rm -fr *.obj *.err *.map *.exe *.out
+cd ..
+
 rm -fr log.txt

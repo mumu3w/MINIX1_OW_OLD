@@ -78,12 +78,14 @@ ker_ds:	DW  DGROUP		; this word will contain kernel's ds value
 	mov sp,_k_stack	        ; set sp to point to the top of	the
 	add sp,K_STACK_BYTES    ; kernel stack
         
-CR0_MP equ 010b
-CR0_EM equ 0100b
-        MOV EDX, CR0            ; Start probe, get CR0
-        AND EDX, (-1) - (CR0_EM)       ; clear TS and EM to force fpu access
-        MOV CR0, EDX                            ; store control word
-        FNINIT
+;CR0_MP equ 010b
+;CR0_EM equ 0100b
+;CR0_TS equ 01000b
+;        MOV EDX, CR0            ; Start probe, get CR0
+;        AND EDX, (-1) - (CR0_MP+CR0_EM+CR0_TS); clear TS and EM to force fpu access
+;        MOV CR0, EDX            ; store control word
+;        FNINIT
+        fninit
 
 	call _main		; start	the main program of Minix
 

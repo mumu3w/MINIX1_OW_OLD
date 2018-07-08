@@ -1,15 +1,16 @@
 CROSSCC = wcc
 CROSSLD = wlink
 CROSSASM= nasm -f obj
-CROSSCFLAGS = -I../libansi/_headers -Di8088 -ms -0 -s -zls -ecc -zp1 -bt=myos -od -zq -j -zl -fo=.obj -zro -fpi87
+CROSSCFLAGS = -I../libansi/_headers -Di8088 -ms -3 -s -zls -ecc -zp1 -bt=myos -od -zq -j -zl -fo=.obj -zro -fpi87 -fp3 -op
 #CROSSCFLAGS = -Di8088 -ms -2 -s -zls -ecc -zp1 -bt=myos -od -zq -j -zl -fo=.obj
 
 OUT1 = tctype.exe  tfloat.exe   tlocale.exe  tmath2.exe  tsetjmp.exe  tstdarg.exe  tstdio1.exe  tstdlib.exe  ttime.exe
 OUT2 = tassert.exe  terrno.exe  tlimits.exe  tmath1.exe   tmath3.exe  tsignal.exe  tstddef.exe  tstdio2.exe  tstring.exe
-OUT3 = 
+OUT3 = hello.exe
 OUTS = $(OUT1) $(OUT2) $(OUT3)
 
 all : $(OUTS)
+	../tools/minixfsutils ../tools/c.img.old put /hello hello.out
 	../tools/minixfsutils ../tools/c.img.old put /tstdio1 tstdio1.out
 	../tools/minixfsutils ../tools/c.img.old put /tstdio2 tstdio2.out
 	../tools/minixfsutils ../tools/c.img.old put /tctype tctype.out
