@@ -1,1 +1,1 @@
-MINIX 1.0 (OpenWATCOM + NASM)
+MINIX 1.0 (OpenWATCOM + NASM + Bochs)
