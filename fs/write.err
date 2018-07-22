@@ -1,0 +1,7 @@
+write.c(29): Warning! W131: No prototype found for function 'read_write'
+write.c(56): Warning! W131: No prototype found for function 'scale_factor'
+write.c(91): Warning! W131: No prototype found for function 'zero_block'
+write.c(102): Warning! W131: No prototype found for function 'put_block'
+write.c(160): Warning! W107: Missing return value for function 'clear_zone'
+write.c(197): Warning! W131: No prototype found for function 'free_zone'
+write.c(232): Warning! W107: Missing return value for function 'zero_block'

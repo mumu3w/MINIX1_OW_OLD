@@ -1,0 +1,2 @@
+brk2.c(7): Warning! W131: No prototype found for function 'get_size'
+brk2.c(9): Warning! W107: Missing return value for function 'brk2'

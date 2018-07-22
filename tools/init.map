@@ -1,0 +1,122 @@
+Open Watcom Linker Version 2.0 beta Apr  5 2018 15:02:42 (64-bit)
+Copyright (c) 2002-2018 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Created on:       18/07/22 10:54:21
+Executable Image: init.exe
+creating a DOS executable
+Warning! W1172: stack size is less than 512 bytes
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+DGROUP                          0088:0000            000001f0
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+_TEXT                  CODE           AUTO           0000:0000       0000087c
+_DATABEG               DATA           DGROUP         0088:0000       00000020
+_DATA                  DATA           DGROUP         008a:0000       0000000e
+CONST                  DATA           DGROUP         008a:000e       00000066
+CONST2                 DATA           DGROUP         0091:0004       00000000
+_DATAEND               DATA           DGROUP         0091:0004       00000000
+_BSS                   BSS            DGROUP         0091:0004       00000152
+_BSSEND                BSS            DGROUP         00a6:0006       00000000
+STACK                  STACK          DGROUP         00a7:0000       00000000
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: ../libsys/head.obj(head.asm)
+0000:0000*     @main
+0088:0000*     _data_org
+0088:0010*     _brksize
+0088:0012*     _sp_limit
+0088:01e6      _end
+Module: init.obj(/mnt/c/Gitsrc/minix1/tools/init.c)
+0000:0016      _main
+0000:012a+     _startup
+0000:01d4+     _getline
+0088:0020+     _name
+0088:002a      _stackpt
+0088:0094+     _stack
+0088:0194+     _pid
+0088:01a8+     _pidct
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/sync.c)
+0000:0209      _sync
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/fork.c)
+0000:023e      _fork
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/wait.c)
+0000:0272      _wait
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/open.c)
+0000:02b4      _open
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/exit.c)
+0000:02dd      __exit
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/exec.c)
+0000:0311*     _execl
+0000:0337*     _execle
+0000:0377*     _execv
+0000:039c+     _execve
+0000:0583      _execn
+0088:01aa+     _nullptr
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/write.c)
+0000:05ca      _write
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/close.c)
+0000:05ff      _close
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/signal.c)
+0000:0634      _signal
+0088:01ac      _vectab
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/read.c)
+0000:06b5      _read
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/call.c)
+0000:06f0      _callm1
+0000:0735      _callm3
+0000:07a3      _callx
+0000:07fe      _len
+0088:01cc+     _errno
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/message.c)
+0088:01ce      _M
+Module: ../libsys/libsys.lib(catchsig.asm)
+0000:0831      _begsig
+Module: ../libsys/libsys.lib(sendrec.asm)
+0000:0860*     _send
+0000:0865*     _receive
+0000:086a      _sendrec
+0000:086a*     _send_rec
+Warning! W1023: no starting address found, using 0000:0000
+
+
+                        +--------------------+
+                        |   Libraries Used   |
+                        +--------------------+
+
+../libsys/libsys.lib
+
+
+                        +-----------------------+
+                        |   Linker Statistics   |
+                        +-----------------------+
+
+Stack size:  0000 (0.)
+Memory size:  0a70 (2672.)
+Entry point address: 0000:0000
+Link time: 00:00.25

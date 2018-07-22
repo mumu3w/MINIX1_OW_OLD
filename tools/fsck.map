@@ -1,0 +1,66 @@
+Open Watcom Linker Version 2.0 beta Apr  5 2018 15:02:42 (64-bit)
+Copyright (c) 2002-2018 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Created on:       18/07/22 10:54:21
+Executable Image: fsck.exe
+creating a DOS executable
+Warning! W1172: stack size is less than 512 bytes
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+DGROUP                          000f:0000            00001070
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+_TEXT                  CODE           AUTO           0000:0000       000000e2
+_DATABEG               DATA           DGROUP         000f:0000       00000000
+_DATA                  DATA           DGROUP         000f:0000       00000000
+CONST                  DATA           DGROUP         000f:0000       00000065
+CONST2                 DATA           DGROUP         0015:0006       00000000
+_DATAEND               DATA           DGROUP         0015:0006       00000000
+_BSS                   BSS            DGROUP         0015:0006       00001000
+_BSSEND                BSS            DGROUP         0115:0006       00000000
+STACK                  STACK          DGROUP         0116:0000       00000000
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: fsck1.obj(fsck1.asm)
+0000:002d      _bios_putc
+0000:0045      _bios_getc
+Module: fsck.obj(/mnt/c/Gitsrc/minix1/tools/fsck.c)
+0000:004a+     _putc
+0000:006a+     _puts
+0000:008d+     _getc
+0000:00a5      _cmain
+
+
+                        +-----------------------+
+                        |   Linker Statistics   |
+                        +-----------------------+
+
+Stack size:  0000 (0.)
+Memory size:  1160 (4448.)
+Entry point address: 0000:0000
+Link time: 00:00.00

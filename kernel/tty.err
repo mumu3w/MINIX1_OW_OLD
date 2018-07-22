@@ -1,0 +1,417 @@
+tty.c(153): Warning! W132: No storage class or type specified
+tty.c(158): Warning! W106: Constant out of range - truncated
+tty.c(158): Note! I2003: source conversion type is 'int'
+tty.c(158): Note! I2004: target conversion type is 'char'
+tty.c(159): Warning! W106: Constant out of range - truncated
+tty.c(159): Note! I2003: source conversion type is 'int'
+tty.c(159): Note! I2004: target conversion type is 'char'
+tty.c(160): Warning! W106: Constant out of range - truncated
+tty.c(160): Note! I2003: source conversion type is 'int'
+tty.c(160): Note! I2004: target conversion type is 'char'
+tty.c(160): Warning! W106: Constant out of range - truncated
+tty.c(160): Note! I2003: source conversion type is 'int'
+tty.c(160): Note! I2004: target conversion type is 'char'
+tty.c(160): Warning! W106: Constant out of range - truncated
+tty.c(160): Note! I2003: source conversion type is 'int'
+tty.c(160): Note! I2004: target conversion type is 'char'
+tty.c(160): Warning! W106: Constant out of range - truncated
+tty.c(160): Note! I2003: source conversion type is 'int'
+tty.c(160): Note! I2004: target conversion type is 'char'
+tty.c(160): Warning! W106: Constant out of range - truncated
+tty.c(160): Note! I2003: source conversion type is 'int'
+tty.c(160): Note! I2004: target conversion type is 'char'
+tty.c(160): Warning! W106: Constant out of range - truncated
+tty.c(160): Note! I2003: source conversion type is 'int'
+tty.c(160): Note! I2004: target conversion type is 'char'
+tty.c(160): Warning! W106: Constant out of range - truncated
+tty.c(160): Note! I2003: source conversion type is 'int'
+tty.c(160): Note! I2004: target conversion type is 'char'
+tty.c(160): Warning! W106: Constant out of range - truncated
+tty.c(160): Note! I2003: source conversion type is 'int'
+tty.c(160): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(161): Warning! W106: Constant out of range - truncated
+tty.c(161): Note! I2003: source conversion type is 'int'
+tty.c(161): Note! I2004: target conversion type is 'char'
+tty.c(162): Warning! W106: Constant out of range - truncated
+tty.c(162): Note! I2003: source conversion type is 'int'
+tty.c(162): Note! I2004: target conversion type is 'char'
+tty.c(162): Warning! W106: Constant out of range - truncated
+tty.c(162): Note! I2003: source conversion type is 'int'
+tty.c(162): Note! I2004: target conversion type is 'char'
+tty.c(162): Warning! W106: Constant out of range - truncated
+tty.c(162): Note! I2003: source conversion type is 'int'
+tty.c(162): Note! I2004: target conversion type is 'char'
+tty.c(162): Warning! W106: Constant out of range - truncated
+tty.c(162): Note! I2003: source conversion type is 'int'
+tty.c(162): Note! I2004: target conversion type is 'char'
+tty.c(168): Warning! W106: Constant out of range - truncated
+tty.c(168): Note! I2003: source conversion type is 'int'
+tty.c(168): Note! I2004: target conversion type is 'char'
+tty.c(169): Warning! W106: Constant out of range - truncated
+tty.c(169): Note! I2003: source conversion type is 'int'
+tty.c(169): Note! I2004: target conversion type is 'char'
+tty.c(170): Warning! W106: Constant out of range - truncated
+tty.c(170): Note! I2003: source conversion type is 'int'
+tty.c(170): Note! I2004: target conversion type is 'char'
+tty.c(170): Warning! W106: Constant out of range - truncated
+tty.c(170): Note! I2003: source conversion type is 'int'
+tty.c(170): Note! I2004: target conversion type is 'char'
+tty.c(170): Warning! W106: Constant out of range - truncated
+tty.c(170): Note! I2003: source conversion type is 'int'
+tty.c(170): Note! I2004: target conversion type is 'char'
+tty.c(170): Warning! W106: Constant out of range - truncated
+tty.c(170): Note! I2003: source conversion type is 'int'
+tty.c(170): Note! I2004: target conversion type is 'char'
+tty.c(170): Warning! W106: Constant out of range - truncated
+tty.c(170): Note! I2003: source conversion type is 'int'
+tty.c(170): Note! I2004: target conversion type is 'char'
+tty.c(170): Warning! W106: Constant out of range - truncated
+tty.c(170): Note! I2003: source conversion type is 'int'
+tty.c(170): Note! I2004: target conversion type is 'char'
+tty.c(170): Warning! W106: Constant out of range - truncated
+tty.c(170): Note! I2003: source conversion type is 'int'
+tty.c(170): Note! I2004: target conversion type is 'char'
+tty.c(170): Warning! W106: Constant out of range - truncated
+tty.c(170): Note! I2003: source conversion type is 'int'
+tty.c(170): Note! I2004: target conversion type is 'char'
+tty.c(171): Warning! W106: Constant out of range - truncated
+tty.c(171): Note! I2003: source conversion type is 'int'
+tty.c(171): Note! I2004: target conversion type is 'char'
+tty.c(171): Warning! W106: Constant out of range - truncated
+tty.c(171): Note! I2003: source conversion type is 'int'
+tty.c(171): Note! I2004: target conversion type is 'char'
+tty.c(171): Warning! W106: Constant out of range - truncated
+tty.c(171): Note! I2003: source conversion type is 'int'
+tty.c(171): Note! I2004: target conversion type is 'char'
+tty.c(171): Warning! W106: Constant out of range - truncated
+tty.c(171): Note! I2003: source conversion type is 'int'
+tty.c(171): Note! I2004: target conversion type is 'char'
+tty.c(171): Warning! W106: Constant out of range - truncated
+tty.c(171): Note! I2003: source conversion type is 'int'
+tty.c(171): Note! I2004: target conversion type is 'char'
+tty.c(171): Warning! W106: Constant out of range - truncated
+tty.c(171): Note! I2003: source conversion type is 'int'
+tty.c(171): Note! I2004: target conversion type is 'char'
+tty.c(171): Warning! W106: Constant out of range - truncated
+tty.c(171): Note! I2003: source conversion type is 'int'
+tty.c(171): Note! I2004: target conversion type is 'char'
+tty.c(171): Warning! W106: Constant out of range - truncated
+tty.c(171): Note! I2003: source conversion type is 'int'
+tty.c(171): Note! I2004: target conversion type is 'char'
+tty.c(171): Warning! W106: Constant out of range - truncated
+tty.c(171): Note! I2003: source conversion type is 'int'
+tty.c(171): Note! I2004: target conversion type is 'char'
+tty.c(173): Warning! W106: Constant out of range - truncated
+tty.c(173): Note! I2003: source conversion type is 'int'
+tty.c(173): Note! I2004: target conversion type is 'char'
+tty.c(179): Warning! W106: Constant out of range - truncated
+tty.c(179): Note! I2003: source conversion type is 'int'
+tty.c(179): Note! I2004: target conversion type is 'char'
+tty.c(180): Warning! W106: Constant out of range - truncated
+tty.c(180): Note! I2003: source conversion type is 'int'
+tty.c(180): Note! I2004: target conversion type is 'char'
+tty.c(181): Warning! W106: Constant out of range - truncated
+tty.c(181): Note! I2003: source conversion type is 'int'
+tty.c(181): Note! I2004: target conversion type is 'char'
+tty.c(181): Warning! W106: Constant out of range - truncated
+tty.c(181): Note! I2003: source conversion type is 'int'
+tty.c(181): Note! I2004: target conversion type is 'char'
+tty.c(181): Warning! W106: Constant out of range - truncated
+tty.c(181): Note! I2003: source conversion type is 'int'
+tty.c(181): Note! I2004: target conversion type is 'char'
+tty.c(181): Warning! W106: Constant out of range - truncated
+tty.c(181): Note! I2003: source conversion type is 'int'
+tty.c(181): Note! I2004: target conversion type is 'char'
+tty.c(181): Warning! W106: Constant out of range - truncated
+tty.c(181): Note! I2003: source conversion type is 'int'
+tty.c(181): Note! I2004: target conversion type is 'char'
+tty.c(181): Warning! W106: Constant out of range - truncated
+tty.c(181): Note! I2003: source conversion type is 'int'
+tty.c(181): Note! I2004: target conversion type is 'char'
+tty.c(181): Warning! W106: Constant out of range - truncated
+tty.c(181): Note! I2003: source conversion type is 'int'
+tty.c(181): Note! I2004: target conversion type is 'char'
+tty.c(181): Warning! W106: Constant out of range - truncated
+tty.c(181): Note! I2003: source conversion type is 'int'
+tty.c(181): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(182): Warning! W106: Constant out of range - truncated
+tty.c(182): Note! I2003: source conversion type is 'int'
+tty.c(182): Note! I2004: target conversion type is 'char'
+tty.c(183): Warning! W106: Constant out of range - truncated
+tty.c(183): Note! I2003: source conversion type is 'int'
+tty.c(183): Note! I2004: target conversion type is 'char'
+tty.c(183): Warning! W106: Constant out of range - truncated
+tty.c(183): Note! I2003: source conversion type is 'int'
+tty.c(183): Note! I2004: target conversion type is 'char'
+tty.c(183): Warning! W106: Constant out of range - truncated
+tty.c(183): Note! I2003: source conversion type is 'int'
+tty.c(183): Note! I2004: target conversion type is 'char'
+tty.c(183): Warning! W106: Constant out of range - truncated
+tty.c(183): Note! I2003: source conversion type is 'int'
+tty.c(183): Note! I2004: target conversion type is 'char'
+tty.c(183): Warning! W106: Constant out of range - truncated
+tty.c(183): Note! I2003: source conversion type is 'int'
+tty.c(183): Note! I2004: target conversion type is 'char'
+tty.c(183): Warning! W106: Constant out of range - truncated
+tty.c(183): Note! I2003: source conversion type is 'int'
+tty.c(183): Note! I2004: target conversion type is 'char'
+tty.c(183): Warning! W106: Constant out of range - truncated
+tty.c(183): Note! I2003: source conversion type is 'int'
+tty.c(183): Note! I2004: target conversion type is 'char'
+tty.c(183): Warning! W106: Constant out of range - truncated
+tty.c(183): Note! I2003: source conversion type is 'int'
+tty.c(183): Note! I2004: target conversion type is 'char'
+tty.c(184): Warning! W106: Constant out of range - truncated
+tty.c(184): Note! I2003: source conversion type is 'int'
+tty.c(184): Note! I2004: target conversion type is 'char'
+tty.c(184): Warning! W106: Constant out of range - truncated
+tty.c(184): Note! I2003: source conversion type is 'int'
+tty.c(184): Note! I2004: target conversion type is 'char'
+tty.c(184): Warning! W106: Constant out of range - truncated
+tty.c(184): Note! I2003: source conversion type is 'int'
+tty.c(184): Note! I2004: target conversion type is 'char'
+tty.c(184): Warning! W106: Constant out of range - truncated
+tty.c(184): Note! I2003: source conversion type is 'int'
+tty.c(184): Note! I2004: target conversion type is 'char'
+tty.c(184): Warning! W106: Constant out of range - truncated
+tty.c(184): Note! I2003: source conversion type is 'int'
+tty.c(184): Note! I2004: target conversion type is 'char'
+tty.c(184): Warning! W106: Constant out of range - truncated
+tty.c(184): Note! I2003: source conversion type is 'int'
+tty.c(184): Note! I2004: target conversion type is 'char'
+tty.c(184): Warning! W106: Constant out of range - truncated
+tty.c(184): Note! I2003: source conversion type is 'int'
+tty.c(184): Note! I2004: target conversion type is 'char'
+tty.c(185): Warning! W106: Constant out of range - truncated
+tty.c(185): Note! I2003: source conversion type is 'int'
+tty.c(185): Note! I2004: target conversion type is 'char'
+tty.c(190): Warning! W106: Constant out of range - truncated
+tty.c(190): Note! I2003: source conversion type is 'int'
+tty.c(190): Note! I2004: target conversion type is 'char'
+tty.c(191): Warning! W106: Constant out of range - truncated
+tty.c(191): Note! I2003: source conversion type is 'int'
+tty.c(191): Note! I2004: target conversion type is 'char'
+tty.c(192): Warning! W106: Constant out of range - truncated
+tty.c(192): Note! I2003: source conversion type is 'int'
+tty.c(192): Note! I2004: target conversion type is 'char'
+tty.c(192): Warning! W106: Constant out of range - truncated
+tty.c(192): Note! I2003: source conversion type is 'int'
+tty.c(192): Note! I2004: target conversion type is 'char'
+tty.c(192): Warning! W106: Constant out of range - truncated
+tty.c(192): Note! I2003: source conversion type is 'int'
+tty.c(192): Note! I2004: target conversion type is 'char'
+tty.c(192): Warning! W106: Constant out of range - truncated
+tty.c(192): Note! I2003: source conversion type is 'int'
+tty.c(192): Note! I2004: target conversion type is 'char'
+tty.c(192): Warning! W106: Constant out of range - truncated
+tty.c(192): Note! I2003: source conversion type is 'int'
+tty.c(192): Note! I2004: target conversion type is 'char'
+tty.c(192): Warning! W106: Constant out of range - truncated
+tty.c(192): Note! I2003: source conversion type is 'int'
+tty.c(192): Note! I2004: target conversion type is 'char'
+tty.c(192): Warning! W106: Constant out of range - truncated
+tty.c(192): Note! I2003: source conversion type is 'int'
+tty.c(192): Note! I2004: target conversion type is 'char'
+tty.c(192): Warning! W106: Constant out of range - truncated
+tty.c(192): Note! I2003: source conversion type is 'int'
+tty.c(192): Note! I2004: target conversion type is 'char'
+tty.c(193): Warning! W106: Constant out of range - truncated
+tty.c(193): Note! I2003: source conversion type is 'int'
+tty.c(193): Note! I2004: target conversion type is 'char'
+tty.c(193): Warning! W106: Constant out of range - truncated
+tty.c(193): Note! I2003: source conversion type is 'int'
+tty.c(193): Note! I2004: target conversion type is 'char'
+tty.c(193): Warning! W106: Constant out of range - truncated
+tty.c(193): Note! I2003: source conversion type is 'int'
+tty.c(193): Note! I2004: target conversion type is 'char'
+tty.c(193): Warning! W106: Constant out of range - truncated
+tty.c(193): Note! I2003: source conversion type is 'int'
+tty.c(193): Note! I2004: target conversion type is 'char'
+tty.c(193): Warning! W106: Constant out of range - truncated
+tty.c(193): Note! I2003: source conversion type is 'int'
+tty.c(193): Note! I2004: target conversion type is 'char'
+tty.c(193): Warning! W106: Constant out of range - truncated
+tty.c(193): Note! I2003: source conversion type is 'int'
+tty.c(193): Note! I2004: target conversion type is 'char'
+tty.c(193): Warning! W106: Constant out of range - truncated
+tty.c(193): Note! I2003: source conversion type is 'int'
+tty.c(193): Note! I2004: target conversion type is 'char'
+tty.c(193): Warning! W106: Constant out of range - truncated
+tty.c(193): Note! I2003: source conversion type is 'int'
+tty.c(193): Note! I2004: target conversion type is 'char'
+tty.c(194): Warning! W106: Constant out of range - truncated
+tty.c(194): Note! I2003: source conversion type is 'int'
+tty.c(194): Note! I2004: target conversion type is 'char'
+tty.c(194): Warning! W106: Constant out of range - truncated
+tty.c(194): Note! I2003: source conversion type is 'int'
+tty.c(194): Note! I2004: target conversion type is 'char'
+tty.c(194): Warning! W106: Constant out of range - truncated
+tty.c(194): Note! I2003: source conversion type is 'int'
+tty.c(194): Note! I2004: target conversion type is 'char'
+tty.c(194): Warning! W106: Constant out of range - truncated
+tty.c(194): Note! I2003: source conversion type is 'int'
+tty.c(194): Note! I2004: target conversion type is 'char'
+tty.c(194): Warning! W106: Constant out of range - truncated
+tty.c(194): Note! I2003: source conversion type is 'int'
+tty.c(194): Note! I2004: target conversion type is 'char'
+tty.c(195): Warning! W106: Constant out of range - truncated
+tty.c(195): Note! I2003: source conversion type is 'int'
+tty.c(195): Note! I2004: target conversion type is 'char'
+tty.c(195): Warning! W106: Constant out of range - truncated
+tty.c(195): Note! I2003: source conversion type is 'int'
+tty.c(195): Note! I2004: target conversion type is 'char'
+tty.c(195): Warning! W106: Constant out of range - truncated
+tty.c(195): Note! I2003: source conversion type is 'int'
+tty.c(195): Note! I2004: target conversion type is 'char'
+tty.c(195): Warning! W106: Constant out of range - truncated
+tty.c(195): Note! I2003: source conversion type is 'int'
+tty.c(195): Note! I2004: target conversion type is 'char'
+tty.c(195): Warning! W106: Constant out of range - truncated
+tty.c(195): Note! I2003: source conversion type is 'int'
+tty.c(195): Note! I2004: target conversion type is 'char'
+tty.c(195): Warning! W106: Constant out of range - truncated
+tty.c(195): Note! I2003: source conversion type is 'int'
+tty.c(195): Note! I2004: target conversion type is 'char'
+tty.c(195): Warning! W106: Constant out of range - truncated
+tty.c(195): Note! I2003: source conversion type is 'int'
+tty.c(195): Note! I2004: target conversion type is 'char'
+tty.c(196): Warning! W106: Constant out of range - truncated
+tty.c(196): Note! I2003: source conversion type is 'int'
+tty.c(196): Note! I2004: target conversion type is 'char'
+tty.c(209): Warning! W131: No prototype found for function 'tty_init'
+tty.c(211): Warning! W131: No prototype found for function 'receive'
+tty.c(214): Warning! W131: No prototype found for function 'do_charint'
+tty.c(215): Warning! W131: No prototype found for function 'do_read'
+tty.c(216): Warning! W131: No prototype found for function 'do_write'
+tty.c(217): Warning! W131: No prototype found for function 'do_ioctl'
+tty.c(218): Warning! W131: No prototype found for function 'do_cancel'
+tty.c(220): Warning! W131: No prototype found for function 'tty_reply'
+tty.c(243): Warning! W131: No prototype found for function 'lock'
+tty.c(254): Warning! W131: No prototype found for function 'unlock'
+tty.c(261): Warning! W131: No prototype found for function 'in_char'
+tty.c(268): Warning! W131: No prototype found for function 'rd_chars'
+tty.c(277): Warning! W107: Missing return value for function 'do_charint'
+tty.c(295): Warning! W131: No prototype found for function 'func_key'
+tty.c(312): Warning! W131: No prototype found for function 'chuck'
+tty.c(313): Warning! W131: No prototype found for function 'echo'
+tty.c(363): Warning! W131: No prototype found for function 'finish'
+tty.c(368): Warning! W131: No prototype found for function 'cause_sig'
+tty.c(393): Warning! W107: Missing return value for function 'in_char'
+tty.c(401): Warning! W137: Extern function 'make_break' redeclared as static
+tty.c(401): Note! I2002: 'make_break' defined in: tty.c(291)
+tty.c(458): Warning! W131: No prototype found for function 'out_char'
+tty.c(459): Warning! W131: No prototype found for function 'flush'
+tty.c(460): Warning! W107: Missing return value for function 'echo'
+tty.c(512): Warning! W107: Missing return value for function 'do_read'
+tty.c(573): Warning! W131: No prototype found for function 'phys_copy'
+tty.c(604): Warning! W107: Missing return value for function 'finish'
+tty.c(640): Warning! W107: Missing return value for function 'do_write'
+tty.c(700): Warning! W107: Missing return value for function 'do_ioctl'
+tty.c(729): Warning! W107: Missing return value for function 'do_cancel'
+tty.c(752): Warning! W131: No prototype found for function 'send'
+tty.c(753): Warning! W107: Missing return value for function 'tty_reply'
+tty.c(826): Warning! W131: No prototype found for function 'port_in'
+tty.c(828): Warning! W131: No prototype found for function 'port_out'
+tty.c(859): Warning! W131: No prototype found for function 'reboot'
+tty.c(872): Warning! W131: No prototype found for function 'interrupt'
+tty.c(877): Warning! W107: Missing return value for function 'keyboard'
+tty.c(902): Warning! W131: No prototype found for function 'get_byte'
+tty.c(916): Warning! W107: Missing return value for function 'console'
+tty.c(941): Warning! W131: No prototype found for function 'escape'
+tty.c(949): Warning! W131: No prototype found for function 'beep'
+tty.c(953): Warning! W131: No prototype found for function 'move_to'
+tty.c(971): Warning! W131: No prototype found for function 'scroll_screen'
+tty.c(1023): Warning! W131: No prototype found for function 'vid_copy'
+tty.c(1024): Warning! W131: No prototype found for function 'set_6845'
+tty.c(1025): Warning! W107: Missing return value for function 'scroll_screen'
+tty.c(1043): Warning! W107: Missing return value for function 'flush'
+tty.c(1062): Warning! W107: Missing return value for function 'move_to'
+tty.c(1105): Warning! W107: Missing return value for function 'escape'
+tty.c(1129): Warning! W107: Missing return value for function 'set_6845'
+tty.c(1155): Warning! W107: Missing return value for function 'beep'
+tty.c(1206): Warning! W107: Missing return value for function 'tty_init'
+tty.c(1222): Warning! W107: Missing return value for function 'putc'
+tty.c(1235): Warning! W131: No prototype found for function 'p_dmp'
+tty.c(1236): Warning! W131: No prototype found for function 'map_dmp'
+tty.c(1237): Warning! W107: Missing return value for function 'func_key'

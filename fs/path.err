@@ -1,0 +1,9 @@
+path.c(46): Warning! W131: No prototype found for function 'put_inode'
+path.c(74): Warning! W131: No prototype found for function 'dup_inode'
+path.c(101): Warning! W137: Extern function 'get_name' redeclared as static
+path.c(101): Note! I2002: 'get_name' defined in: path.c(70)
+path.c(164): Warning! W131: No prototype found for function 'search_dir'
+path.c(241): Warning! W131: No prototype found for function 'forbidden'
+path.c(261): Warning! W131: No prototype found for function 'cmp_string'
+path.c(269): Warning! W131: No prototype found for function 'put_block'
+path.c(300): Warning! W131: No prototype found for function 'copy'

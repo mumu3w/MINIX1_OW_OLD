@@ -1,0 +1,5 @@
+time.c(37): Warning! W131: No prototype found for function 'fetch_name'
+time.c(48): Warning! W131: No prototype found for function 'put_inode'
+time.c(80): Warning! W131: No prototype found for function 'sendrec'
+time.c(80): Warning! W131: No prototype found for function 'panic'
+time.c(94): Warning! W131: No prototype found for function 'sys_times'

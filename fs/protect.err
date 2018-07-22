@@ -1,0 +1,4 @@
+protect.c(37): Warning! W131: No prototype found for function 'fetch_name'
+protect.c(46): Warning! W131: No prototype found for function 'read_only'
+protect.c(50): Warning! W131: No prototype found for function 'put_inode'
+protect.c(124): Warning! W131: No prototype found for function 'forbidden'

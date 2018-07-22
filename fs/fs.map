@@ -1,0 +1,244 @@
+Open Watcom Linker Version 2.0 beta Apr  5 2018 15:02:42 (64-bit)
+Copyright (c) 2002-2018 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Created on:       18/07/22 10:54:20
+Executable Image: fs.exe
+creating a DOS executable
+Warning! W1172: stack size is less than 512 bytes
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+DGROUP                          03d8:0000            000065e0
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+_TEXT                  CODE           AUTO           0000:0000       00003d75
+_DATABEG               DATA           DGROUP         03d8:0000       00000020
+_DATA                  DATA           DGROUP         03da:0000       000000ca
+CONST                  DATA           DGROUP         03e6:000a       00000328
+CONST2                 DATA           DGROUP         0419:0002       00000000
+_DATAEND               DATA           DGROUP         0419:0002       00000000
+_BSS                   BSS            DGROUP         0419:0002       000061c0
+_BSSEND                BSS            DGROUP         0a35:0002       00000000
+STACK                  STACK          DGROUP         0a36:0000       00000000
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: ../libsys/head.obj(head.asm)
+0000:0000*     @main
+03d8:0000      _data_org
+03d8:0010      _brksize
+03d8:0012*     _sp_limit
+03d8:65d2      _end
+Module: cache.obj(/mnt/c/Gitsrc/minix1/fs/cache.c)
+0000:0016      _get_block
+0000:013c      _put_block
+0000:01fa      _alloc_zone
+0000:0267      _free_zone
+0000:0291      _rw_block
+0000:0302      _invalidate
+Module: filedes.obj(/mnt/c/Gitsrc/minix1/fs/filedes.c)
+0000:0326      _get_fd
+0000:038b      _get_filp
+0000:03b1      _find_filp
+Module: link.obj(/mnt/c/Gitsrc/minix1/fs/link.c)
+0000:03df      _do_link
+0000:04f6      _do_unlink
+0000:058a      _truncate
+Module: misc.obj(/mnt/c/Gitsrc/minix1/fs/misc.c)
+0000:067a      _do_dup
+0000:0701      _do_sync
+0000:07cb      _do_fork
+0000:085c      _do_exit
+0000:08db      _do_set
+0000:0926      _do_revive
+Module: open.obj(/mnt/c/Gitsrc/minix1/fs/open.c)
+0000:0948      _do_creat
+0000:0a50      _do_mknod
+0000:0b70      _do_open
+0000:0c73      _do_close
+0000:0d0d      _do_lseek
+Module: pipe.obj(/mnt/c/Gitsrc/minix1/fs/pipe.c)
+0000:0d8d      _do_pipe
+0000:0e78      _pipe_check
+0000:0f59      _suspend
+0000:0fa7      _release
+0000:1001      _revive
+0000:105b      _do_unpause
+Module: putc.obj(/mnt/c/Gitsrc/minix1/fs/putc.c)
+0000:1123      _putc
+Module: stadir.obj(/mnt/c/Gitsrc/minix1/fs/stadir.c)
+0000:1185      _do_chdir
+0000:1208      _do_chroot
+0000:12a7      _do_stat
+0000:12f1      _do_fstat
+Module: table.obj(/mnt/c/Gitsrc/minix1/fs/table.c)
+03d8:04a8+     _fstack
+03d8:06a8      _m1
+03d8:06c0      _m
+03d8:06d8      _inode
+03d8:0c18      _user_path
+03d8:0c98      _filp
+03d8:0f18      _fproc
+03d8:1308      _buf_hash
+03d8:1348      _buf
+03d8:6438      _rdahedpos
+03d8:643c      _super_block
+03d8:6536      _err_code
+03d8:6538      _fs_call
+03d8:653a      _who
+03d8:653c      _reviving
+03d8:653e      _dont_reply
+03d8:6540      _rdahed_inode
+03d8:0024      _stackpt
+03d8:0026      _call_vector
+03d8:00b0      _dmap
+03d8:00e8      _max_major
+03d8:6542      _fp
+03d8:6544      _bufs_in_use
+03d8:6546      _rear
+03d8:6548      _susp_count
+03d8:654a      _super_user
+03d8:654c      _front
+Module: utility.obj(/mnt/c/Gitsrc/minix1/fs/utility.c)
+0000:13b9      _clock_time
+0000:1407      _cmp_string
+0000:142f      _copy
+0000:1472      _fetch_name
+0000:14c7      _no_sys
+0000:14cb      _panic
+Module: device.obj(/mnt/c/Gitsrc/minix1/fs/device.c)
+0000:150d      _dev_open
+0000:1535      _dev_close
+0000:155a      _dev_io
+0000:15cc      _do_ioctl
+0000:16bb      _rw_dev
+0000:1700      _rw_dev2
+0000:172d      _no_call
+Module: inode.obj(/mnt/c/Gitsrc/minix1/fs/inode.c)
+0000:173a      _get_inode
+0000:179a      _put_inode
+0000:17e0      _alloc_inode
+0000:1896      _wipe_inode
+0000:18ca+     _free_inode
+0000:18e5      _rw_inode
+0000:1966      _dup_inode
+Module: main.obj(/mnt/c/Gitsrc/minix1/fs/main.c)
+0000:1971      _main
+0000:1a6c      _reply
+Module: mount.obj(/mnt/c/Gitsrc/minix1/fs/mount.c)
+0000:1d17      _do_mount
+0000:1ef8      _do_umount
+Module: path.obj(/mnt/c/Gitsrc/minix1/fs/path.c)
+0000:2012      _eat_path
+0000:204c      _last_dir
+0000:2133      _advance
+0000:2215      _search_dir
+Module: protect.obj(/mnt/c/Gitsrc/minix1/fs/protect.c)
+0000:23eb      _do_chmod
+0000:246d      _do_chown
+0000:24dc      _do_umask
+0000:24f0      _do_access
+0000:253b      _forbidden
+Module: read.obj(/mnt/c/Gitsrc/minix1/fs/read.c)
+0000:25fa      _do_read
+0000:2604      _read_write
+0000:2a9b      _read_map
+0000:2bc0      _rw_user
+0000:2c39      _read_ahead
+03d8:659e      _rdwt_err
+Module: super.obj(/mnt/c/Gitsrc/minix1/fs/super.c)
+0000:2c70      _load_bit_maps
+0000:2d21      _unload_bit_maps
+0000:2d7b      _alloc_bit
+0000:2e44      _free_bit
+0000:2eaf      _get_super
+0000:2edd      _mounted
+0000:2f07      _scale_factor
+0000:2f1d      _rw_super
+Module: time.obj(/mnt/c/Gitsrc/minix1/fs/time.c)
+0000:2f8a      _do_utime
+0000:2ff7      _do_time
+0000:3004      _do_stime
+0000:3043      _do_tims
+Module: write.obj(/mnt/c/Gitsrc/minix1/fs/write.c)
+0000:308d      _do_write
+0000:325e      _clear_zone
+0000:3333      _new_block
+0000:3439      _zero_block
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/printk.c)
+0000:3457      _printk
+Module: ../libsys/libsys.lib(sendrec.asm)
+0000:38d1      _send
+0000:38d6      _receive
+0000:38db      _sendrec
+0000:38db*     _send_rec
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/syslib.c)
+0000:38ed*     _sys_xit
+0000:391c*     _sys_getsp
+0000:3953*     _sys_sig
+0000:3982*     _sys_fork
+0000:39b1*     _sys_exec
+0000:39e0*     _sys_newmap
+0000:3a0f      _sys_copy
+0000:3a4a      _sys_times
+0000:3ac4      _sys_abort
+0000:3af3*     _tell_fs
+Module: ../libsys/libsys.lib(getutil.asm)
+0000:3b21      _get_base
+0000:3b24*     _get_size
+0000:3b28*     _get_tot_mem
+Module: ../libsys/libsys.lib(i4d.asm)
+0000:3b4e      __I4D
+0000:3b97*     __U4D
+Module: ../libsys/libsys.lib(i4m.asm)
+0000:3c1c      __I4M
+0000:3c1c*     __U4M
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/call.c)
+0000:3c34      _callm1
+0000:3c79*     _callm3
+0000:3ce7      _callx
+0000:3d42+     _len
+03d8:65b8+     _errno
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/message.c)
+03d8:65ba      _M
+Warning! W1023: no starting address found, using 0000:0000
+
+
+                        +--------------------+
+                        |   Libraries Used   |
+                        +--------------------+
+
+../libsys/libsys.lib
+
+
+                        +-----------------------+
+                        |   Linker Statistics   |
+                        +-----------------------+
+
+Stack size:  0000 (0.)
+Memory size:  a360 (41824.)
+Entry point address: 0000:0000
+Link time: 00:00.25

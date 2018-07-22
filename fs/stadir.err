@@ -1,0 +1,7 @@
+stadir.c(36): Warning! W131: No prototype found for function 'put_inode'
+stadir.c(38): Warning! W131: No prototype found for function 'dup_inode'
+stadir.c(44): Warning! W131: No prototype found for function 'change'
+stadir.c(78): Warning! W131: No prototype found for function 'fetch_name'
+stadir.c(85): Warning! W131: No prototype found for function 'forbidden'
+stadir.c(116): Warning! W131: No prototype found for function 'stat_inode'
+stadir.c(174): Warning! W131: No prototype found for function 'rw_user'

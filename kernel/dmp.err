@@ -1,0 +1,7 @@
+dmp.c(32): Warning! W131: No prototype found for function 'printk'
+dmp.c(45): Warning! W131: No prototype found for function 'prname'
+dmp.c(58): Warning! W131: No prototype found for function 'phys_copy'
+dmp.c(70): Warning! W107: Missing return value for function 'p_dmp'
+dmp.c(96): Warning! W107: Missing return value for function 'map_dmp'
+dmp.c(110): Warning! W107: Missing return value for function 'prname'
+dmp.c(135): Warning! W107: Missing return value for function 'set_name'

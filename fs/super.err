@@ -1,0 +1,6 @@
+super.c(47): Warning! W131: No prototype found for function 'panic'
+super.c(81): Warning! W131: No prototype found for function 'put_block'
+super.c(168): Warning! W107: Missing return value for function 'free_bit'
+super.c(186): Warning! W107: Missing return value for function 'get_super'
+super.c(242): Warning! W131: No prototype found for function 'copy'
+super.c(253): Warning! W107: Missing return value for function 'rw_super'

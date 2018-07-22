@@ -1,0 +1,173 @@
+Open Watcom Linker Version 2.0 beta Apr  5 2018 15:02:42 (64-bit)
+Copyright (c) 2002-2018 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Created on:       18/07/22 10:54:21
+Executable Image: mm.exe
+creating a DOS executable
+Warning! W1172: stack size is less than 512 bytes
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+DGROUP                          0207:0000            00001230
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+_TEXT                  CODE           AUTO           0000:0000       00002062
+_DATABEG               DATA           DGROUP         0207:0000       00000020
+_DATA                  DATA           DGROUP         0209:0000       00000096
+CONST                  DATA           DGROUP         0212:0006       00000168
+CONST2                 DATA           DGROUP         0228:000e       00000000
+_DATAEND               DATA           DGROUP         0228:000e       00000000
+_BSS                   BSS            DGROUP         0228:000e       0000100e
+_BSSEND                BSS            DGROUP         0329:000c       00000000
+STACK                  STACK          DGROUP         032a:0000       00000000
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: ../libsys/head.obj(head.asm)
+0000:0000*     @main
+0207:0000*     _data_org
+0207:0010      _brksize
+0207:0012*     _sp_limit
+0207:122c      _end
+Module: alloc.obj(/mnt/c/Gitsrc/minix1/mm/alloc.c)
+0000:0016      _alloc_mem
+0000:0052      _free_mem
+0000:0133      _max_hole
+0000:014a      _mem_init
+Module: break.obj(/mnt/c/Gitsrc/minix1/mm/break.c)
+0000:017f      _do_brk
+0000:01d5      _adjust
+0000:02cd      _size_ok
+0000:0320      _stack_fault
+Module: exec.obj(/mnt/c/Gitsrc/minix1/mm/exec.c)
+0000:0377      _do_exec
+Module: forkexit.obj(/mnt/c/Gitsrc/minix1/mm/forkexit.c)
+0000:08e6      _do_fork
+0000:0a6e      _do_mm_exit
+0000:0a85      _mm_exit
+0000:0afa      _do_wait
+Module: getset.obj(/mnt/c/Gitsrc/minix1/mm/getset.c)
+0000:0bf3      _do_getset
+Module: main.obj(/mnt/c/Gitsrc/minix1/mm/main.c)
+0000:0cb4      _main
+0000:0d63      _reply
+0000:0dd9      _do_brk2
+Module: putc.obj(/mnt/c/Gitsrc/minix1/mm/putc.c)
+0000:0ee3      _putc
+Module: signal.obj(/mnt/c/Gitsrc/minix1/mm/signal.c)
+0000:0f3e      _do_signal
+0000:0fae      _do_kill
+0000:0fc4      _do_ksig
+0000:1162      _sig_proc
+0000:11f0      _do_alarm
+0000:11ff      _set_alarm
+0000:126a      _do_pause
+0000:127b+     _unpause
+Module: table.obj(/mnt/c/Gitsrc/minix1/mm/table.c)
+0207:0022      _core_name
+0207:0027      _core_bits
+0207:0029      _stackpt
+0207:002b      _call_vec
+0207:05ba+     _mm_stack
+0207:0f3a      _mproc
+0207:11ba      _mm_out
+0207:11d2      _mm_in
+0207:11ea      _err_code
+0207:11ec      _mm_call
+0207:11ee      _result2
+0207:11f0      _res_ptr
+0207:11f2      _dont_reply
+0207:11f4      _mp
+0207:11f6      _who
+0207:11f8      _procs_in_use
+Module: utility.obj(/mnt/c/Gitsrc/minix1/mm/utility.c)
+0000:14de      _allowed
+0000:1590      _mem_copy
+0000:15e6      _no_sys
+0000:15ea      _panic
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/syslib.c)
+0000:162b      _sys_xit
+0000:165a      _sys_getsp
+0000:1691      _sys_sig
+0000:16c0      _sys_fork
+0000:16ef      _sys_exec
+0000:171e      _sys_newmap
+0000:174d      _sys_copy
+0000:1788*     _sys_times
+0000:1802      _sys_abort
+0000:1831      _tell_fs
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/close.c)
+0000:185f      _close
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/read.c)
+0000:1894      _read
+Module: ../libsys/libsys.lib(sendrec.asm)
+0000:18cf      _send
+0000:18d4      _receive
+0000:18d9      _sendrec
+0000:18d9*     _send_rec
+Module: ../libsys/libsys.lib(getutil.asm)
+0000:18eb*     _get_base
+0000:18ee*     _get_size
+0000:18f2      _get_tot_mem
+Module: ../libsys/libsys.lib(i4d.asm)
+0000:1918      __I4D
+0000:1961*     __U4D
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/printk.c)
+0000:19e5      _printk
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/creat.c)
+0000:1e5f      _creat
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/write.c)
+0000:1e88      _write
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/open.c)
+0000:1ebd      _open
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/call.c)
+0000:1ee6      _callm1
+0000:1f2b      _callm3
+0000:1f99      _callx
+0000:1ff4+     _len
+0207:1212      _errno
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/fstat.c)
+0000:2027      _fstat
+Module: ../libsys/libsys.lib(/mnt/c/Gitsrc/minix1/libsys/message.c)
+0207:1214      _M
+Warning! W1023: no starting address found, using 0000:0000
+
+
+                        +--------------------+
+                        |   Libraries Used   |
+                        +--------------------+
+
+../libsys/libsys.lib
+
+
+                        +-----------------------+
+                        |   Linker Statistics   |
+                        +-----------------------+
+
+Stack size:  0000 (0.)
+Memory size:  32a0 (12960.)
+Entry point address: 0000:0000
+Link time: 00:00.25
