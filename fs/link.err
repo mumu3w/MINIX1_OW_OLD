@@ -1,8 +1,0 @@
-link.c(37): Warning! W131: No prototype found for function 'fetch_name'
-link.c(50): Warning! W131: No prototype found for function 'put_inode'
-link.c(75): Warning! W131: No prototype found for function 'search_dir'
-link.c(155): Warning! W131: No prototype found for function 'scale_factor'
-link.c(163): Warning! W131: No prototype found for function 'free_zone'
-link.c(177): Warning! W131: No prototype found for function 'put_block'
-link.c(185): Warning! W131: No prototype found for function 'wipe_inode'
-link.c(186): Warning! W107: Missing return value for function 'truncate'

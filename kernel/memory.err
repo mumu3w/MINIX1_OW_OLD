@@ -1,6 +1,0 @@
-memory.c(62): Warning! W131: No prototype found for function 'receive'
-memory.c(64): Warning! W131: No prototype found for function 'panic'
-memory.c(70): Warning! W131: No prototype found for function 'do_mem'
-memory.c(72): Warning! W131: No prototype found for function 'do_setup'
-memory.c(80): Warning! W131: No prototype found for function 'send'
-memory.c(118): Warning! W131: No prototype found for function 'phys_copy'

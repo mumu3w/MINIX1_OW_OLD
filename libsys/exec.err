@@ -1,5 +1,0 @@
-exec.c(9): Warning! W131: No prototype found for function 'execve'
-exec.c(18): Warning! W100: Parameter 3 contains inconsistent levels of indirection
-exec.c(18): Note! I2003: source conversion type is 'char *'
-exec.c(18): Note! I2004: target conversion type is 'char *[]'
-exec.c(18): Note! I2002: 'execve' defined in: exec.c(28)

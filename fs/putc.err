@@ -1,4 +1,0 @@
-putc.c(26): Warning! W131: No prototype found for function 'flush'
-putc.c(32): Warning! W107: Missing return value for function 'putc'
-putc.c(49): Warning! W131: No prototype found for function 'sendrec'
-putc.c(51): Warning! W107: Missing return value for function 'flush'

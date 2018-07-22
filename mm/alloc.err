@@ -1,7 +1,0 @@
-alloc.c(63): Warning! W131: No prototype found for function 'del_slot'
-alloc.c(89): Warning! W131: No prototype found for function 'panic'
-alloc.c(103): Warning! W131: No prototype found for function 'merge'
-alloc.c(117): Warning! W107: Missing return value for function 'free_mem'
-alloc.c(140): Warning! W107: Missing return value for function 'del_slot'
-alloc.c(176): Warning! W107: Missing return value for function 'merge'
-alloc.c(224): Warning! W107: Missing return value for function 'mem_init'
