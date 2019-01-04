@@ -8,6 +8,28 @@ minix，后来便在minix上继续开发，也有在dos下使用C86编译器和M
 在此把修改后的源代码上传github，为后来者提供学习的便利，如有疑问可联系我
 e-mail:mumu3w@outlook.com。
 
+1、安装NASM
+  CentOS7：
+  yum install nasm
+  Ubuntu:
+  sudo apt install nasm
+
+2、安装openwatcom
+  https://github.com/open-watcom/travis-ci-ow-builds/archive/master.zip
+  Rename to watcom
+  mv ./watcom /opt/watcom
+  
+  export WATCOM=/opt/watcom
+  export PATH=$WATCOM/binl64:$PATH (32:export PATH=$WATCOM/binl:$PATH)
+  
+3、构建
+  cd MINIX1
+  ./build.sh
+  
+4、清理
+  cd MINIX1
+  ./clean.sh
+
 ![image](https://github.com/mumu3w/MINIX1/blob/master/tools/2.PNG)
 
 ![image](https://github.com/mumu3w/MINIX1/blob/master/tools/1.PNG)
