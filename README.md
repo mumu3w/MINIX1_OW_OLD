@@ -1,35 +1,35 @@
-MINIX 1.0 (OpenWATCOM + NASM + Bochs)
-
-¼ò½é£º
-  Minix1.0ÊÇÒ»¸ö16Î»µÄÎ¢ÄÚºË²Ù×÷ÏµÍ³£¬Ô­×÷Õß×îÏÈÊ¹ÓÃPCIX²Ù×÷ÏµÍ³¿ª·¢ÁË
-minix£¬ºóÀ´±ãÔÚminixÉÏ¼ÌĞø¿ª·¢£¬Ò²ÓĞÔÚdosÏÂÊ¹ÓÃC86±àÒëÆ÷ºÍMASM4.0»ã±à
-Æ÷±àÒëminix1.0ÏîÄ¿¡£ÉÏÊöÈı¸ö¿ª·¢»·¾³ÒÑ¾­¹ıÊ±¶ÔÑ§Ï°ºÍÊµ¼ùÔì³ÉÁË²»Ğ¡µÄ
-ÕÏ°­£¬Îª´Ë±¾ÈË¶Ôminix1.0×öÁËÏàÓ¦µÄĞŞ¸Ä£¬ÄÜÊ¹ÆäÔÚÏÖ´úlinux¡¢windowsÉÏ
-Ê¹ÓÃopenwatcom±àÒëÆ÷ºÍnasm»ã±àÆ÷¹¹½¨ÏµÍ³£¬²¢¿ÉÊ¹ÓÃbochsÄ£ÄâÆ÷ÔËĞĞºÍ
-µ÷ÊÔÏµÍ³¡£ÔÚ´Ë°ÑĞŞ¸ÄºóµÄÔ´´úÂëÉÏ´«github£¬ÎªºóÀ´ÕßÌá¹©Ñ§Ï°µÄ±ãÀû£¬Èç
-ÓĞÒÉÎÊ¿ÉÁªÏµÎÒe-mail:mumu3w@outlook.com¡£
-
-1¡¢°²×°NASM
-  CentOS7£º
-  yum install nasm
-  Ubuntu:
-  sudo apt install nasm
-
-2¡¢°²×°openwatcom
-  https://github.com/open-watcom/travis-ci-ow-builds/archive/master.zip
-  Rename to watcom
-  mv ./watcom /opt/watcom
+MINIX 1.0 (OpenWATCOM + NASM + Bochs)  
   
-  export WATCOM=/opt/watcom
-  export PATH=$WATCOM/binl64:$PATH (32:export PATH=$WATCOM/binl:$PATH)
+ç®€ä»‹ï¼š  
+  Minix1.0æ˜¯ä¸€ä¸ª16ä½çš„å¾®å†…æ ¸æ“ä½œç³»ç»Ÿï¼ŒåŸä½œè€…æœ€å…ˆä½¿ç”¨PCIXæ“ä½œç³»ç»Ÿå¼€å‘äº†  
+minixï¼Œåæ¥ä¾¿åœ¨minixä¸Šç»§ç»­å¼€å‘ï¼Œä¹Ÿæœ‰åœ¨dosä¸‹ä½¿ç”¨C86ç¼–è¯‘å™¨å’ŒMASM4.0æ±‡ç¼–  
+å™¨ç¼–è¯‘minix1.0é¡¹ç›®ã€‚ä¸Šè¿°ä¸‰ä¸ªå¼€å‘ç¯å¢ƒå·²ç»è¿‡æ—¶å¯¹å­¦ä¹ å’Œå®è·µé€ æˆäº†ä¸å°çš„  
+éšœç¢ï¼Œä¸ºæ­¤æœ¬äººå¯¹minix1.0åšäº†ç›¸åº”çš„ä¿®æ”¹ï¼Œèƒ½ä½¿å…¶åœ¨ç°ä»£linuxã€windowsä¸Š  
+ä½¿ç”¨openwatcomç¼–è¯‘å™¨å’Œnasmæ±‡ç¼–å™¨æ„å»ºç³»ç»Ÿï¼Œå¹¶å¯ä½¿ç”¨bochsæ¨¡æ‹Ÿå™¨è¿è¡Œå’Œ  
+è°ƒè¯•ç³»ç»Ÿã€‚åœ¨æ­¤æŠŠä¿®æ”¹åçš„æºä»£ç ä¸Šä¼ githubï¼Œä¸ºåæ¥è€…æä¾›å­¦ä¹ çš„ä¾¿åˆ©ï¼Œå¦‚  
+æœ‰ç–‘é—®å¯è”ç³»æˆ‘e-mail:mumu3w@outlook.comã€‚  
   
-3¡¢¹¹½¨
-  cd MINIX1
-  ./build.sh
+1ã€å®‰è£…NASM  
+  CentOS7ï¼š  
+  yum install nasm  
+  Ubuntu:  
+  sudo apt install nasm  
   
-4¡¢ÇåÀí
-  cd MINIX1
-  ./clean.sh
+2ã€å®‰è£…openwatcom  
+  https://github.com/open-watcom/travis-ci-ow-builds/archive/master.zip  
+  Rename to watcom  
+  mv ./watcom /opt/watcom  
+    
+  export WATCOM=/opt/watcom  
+  export PATH=$WATCOM/binl64:$PATH (32:export PATH=$WATCOM/binl:$PATH)  
+    
+3ã€æ„å»º  
+  cd MINIX1  
+  ./build.sh  
+    
+4ã€æ¸…ç†  
+  cd MINIX1  
+  ./clean.sh  
 
 ![image](https://github.com/mumu3w/MINIX1/blob/master/tools/2.PNG)
 
