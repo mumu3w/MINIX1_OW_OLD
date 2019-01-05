@@ -30,6 +30,10 @@ minix，后来便在minix上继续开发，也有在dos下使用C86编译器和M
 4、清理  
   cd MINIX1  
   ./clean.sh  
+  
+5、tools  
+  本目录下的dos2out是将dos可执行文件格式转化成minix可执行文件格式  
+  本目录下的build是将minix各模块组合成系统镜像  
 
 ![image](https://github.com/mumu3w/MINIX1/blob/master/tools/2.PNG)
 
